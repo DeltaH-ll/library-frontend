@@ -4,7 +4,7 @@ import router from "@/router";
 import { useUserStore } from "@/store/user";
 
 export const API_BASE_URL =
-  import.meta.env.VITE_API_BASE || "http://localhost:3000/api";
+  import.meta.env.VITE_API_BASE || "http://111.231.168.29/api";
 export const ASSET_BASE_URL =
   import.meta.env.VITE_ASSET_BASE ||
   API_BASE_URL.replace(/\/api\/?$/, "");
